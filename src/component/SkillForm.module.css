@@ -1,0 +1,68 @@
+.itemInputWrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: flex-end;
+}
+
+.inputWrap {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    min-width: 250px;
+}
+
+.inputWrap input {
+    margin: 0;
+}
+
+.inputWrap label {
+    margin: 10px 0;
+    color: rgb(56, 56, 56);
+    font-weight: 500;
+}
+
+.itemWrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.itemBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: rgb(56, 56, 56);
+    background: #EDF2F7;
+    border: 1px solid transparent;
+    text-transform: capitalize;
+}
+
+.itemBox span {
+    font-size: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+button {
+    padding: 12px;
+    margin: 0 10px;
+    border: 2px solid transparent;
+    font-size: 14px;
+    border-radius: 5px;
+    background: #b7e9cf;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #a9e9c8;
+}
+
+@media screen and (max-width: 750px) {
+    .itemInputWrap {
+        padding: 0 !important;
+    }
+}

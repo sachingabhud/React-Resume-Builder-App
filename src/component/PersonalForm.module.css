@@ -1,0 +1,5 @@
+@media screen and (max-width: 750px) {
+    form{
+        padding: 0rem !important;
+    }
+}

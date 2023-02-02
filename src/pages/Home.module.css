@@ -1,0 +1,88 @@
+.wrapper {
+    width: 100vw;
+    min-height: 100vh;
+    /* background: #f3f5fa; */
+}
+
+.header {
+    z-index: 1;
+    padding-top: 10px;
+}
+
+.navWrapper {
+    padding: 0 10rem;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding: 5px;
+}
+
+.logo img {
+    height: 90px;
+    width: 225px;
+}
+
+.btn button {
+    padding: 10px;
+    margin: 0 10px;
+    border: 2px solid transparent;
+    background: #EDF2F7;
+    font-size: 16px;
+    border-radius: 7px;
+}
+
+.btn button:hover {
+    cursor: pointer;
+    background: #CBD5E0;
+}
+
+.heroWrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.heroImage {
+    display: flex;
+    justify-content: center;
+    width: 48%;
+}
+
+.heroImage img {
+    height: 550px;
+    width: 580px;
+}
+
+.heroText {
+    box-sizing: border-box;
+    width: 48%;
+    padding: 3rem 8rem;
+}
+
+.heroText h1 {
+    font-weight: 600;
+    font-family: Rubik, Arial, Helvetica, serif;
+    letter-spacing: 1.5px;
+    line-height: 1.5em;
+}
+
+.heroText p {
+    font-size: 20px;
+    line-height: 1.5em;
+    font-weight: 500;
+    font-family: Rubik, Arial, Helvetica, serif;
+    letter-spacing: 1.5px;
+}
+
+.heroButton {
+    background: #b7e9cf;
+    margin: 14px 0;
+}

@@ -1,0 +1,145 @@
+.mainWrap {
+    display: flex;
+    min-height: 100vh;
+}
+
+.downloadWrap {
+    background: #F2F2F2;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.downloadWrap button {
+    margin: 15px 10px;
+}
+
+.resumeWrap {
+    width: 75%;
+    background-image: url(../assets/bg.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.previewWrap {
+    padding: 0.5rem;
+    background: #FFFF;
+    width: 550px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.headWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.headWrap h2 {
+    text-transform: capitalize;
+    font-size: 2.2em;
+    letter-spacing: 1px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+}
+
+.info {
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.info p {
+    margin: 0;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.detailWrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.leftWrap {
+    width: 65%;
+    box-sizing: border-box;
+}
+
+.rightWrap {
+    width: 32%;
+    box-sizing: border-box;
+}
+
+.sectionWrap {
+    margin-bottom: 1.5rem;
+}
+
+.sectionWrap h3 {
+    letter-spacing: 1.2px;
+    font-size: 16px;
+    margin: 10px 0;
+    color: rgb(112, 118, 120);
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+}
+
+.itemWrap p {
+    color: rgb(112, 118, 120);
+    font-size: 12px;
+    margin: 5px 0;
+    font-weight: 500;
+}
+
+.itemWrap h4 {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: rgb(56, 56, 56);
+    margin: 12px 0;
+}
+
+.itemWrap h6 {
+    color: rgb(56, 56, 56);
+    margin: 12px 0;
+    font-weight: 500;
+}
+
+.skillWrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skillWrap span {
+    padding: 6px;
+    border: 2px solid #EDF2F7;
+    border-radius: 8px;
+    margin: 4px 0;
+    background: #EDF2F7;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 4px;
+}
+
+@media screen and (max-width: 780px) {
+    .mainWrap {
+        flex-direction: column-reverse;
+    }
+
+    .resumeWrap {
+        width: 100%;
+    }
+
+    .downloadWrap {
+        width: 100%;
+    }
+
+    .previewWrap {
+        width: 100%;
+    }
+}

@@ -1,0 +1,44 @@
+.mainWrapper{
+    margin-bottom: 30px;
+}
+
+input {
+    border-radius: 4px;
+    background: #EDF2F7;
+    border: 2px solid transparent;
+    height: 2em;
+    margin: 10px 0;
+    padding: 6px;
+}
+
+textarea{
+    border-radius: 4px;
+    background: #EDF2F7;
+    border: 2px solid transparent;
+    margin: 10px 0;
+    padding: 6px;
+}
+
+.btnWrap{
+    text-align: center;
+    margin: 15px 0;
+}
+
+.btnWrap button{
+    padding: 10px;
+    margin: 0 10px;
+    border: 2px solid transparent;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.btnWrap button:hover{
+    cursor: pointer;
+    background: #a9e9c8;
+}
+
+@media screen and (max-width: 750px) {
+    form{
+        padding: 0 !important;
+    }
+}
