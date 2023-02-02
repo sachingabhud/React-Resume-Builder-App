@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React-Resume-Builder-App/static/css/main.d296f55b.css",
+    "main.js": "/React-Resume-Builder-App/static/js/main.cb197ad7.js",
+    "static/media/h.png": "/React-Resume-Builder-App/static/media/h.51e93aa3c1f131c6d38f.png",
+    "static/media/bg.png": "/React-Resume-Builder-App/static/media/bg.8b2873283d4052cc2632.png",
+    "index.html": "/React-Resume-Builder-App/index.html",
+    "main.d296f55b.css.map": "/React-Resume-Builder-App/static/css/main.d296f55b.css.map",
+    "main.cb197ad7.js.map": "/React-Resume-Builder-App/static/js/main.cb197ad7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d296f55b.css",
+    "static/js/main.cb197ad7.js"
+  ]
+}
